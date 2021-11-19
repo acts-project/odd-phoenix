@@ -1,0 +1,12 @@
+<app-loader [loaded]="loaded" [progress]="loadingProgress"></app-loader>
+<app-nav></app-nav>
+<app-ui-menu [eventDataImportOptions]="['JSON', 'ZIP']">
+  <open-data-detector-event-data-explorer></open-data-detector-event-data-explorer>
+</app-ui-menu>
+<app-embed-menu></app-embed-menu>
+<app-experiment-info
+  experiment="open-data-detector"
+  experimentTagline="Open Data Detector"
+></app-experiment-info>
+<app-phoenix-menu [rootNode]="phoenixMenuRoot"></app-phoenix-menu>
+<div id="eventDisplay"></div>
