@@ -8,10 +8,10 @@ import { PhoenixUIModule } from 'phoenix-ui-components';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ATLASComponent } from './pages/atlas/atlas.component';
+import { ODDComponent } from './pages/odd/odd.component';
 
 @NgModule({
-  declarations: [AppComponent, ATLASComponent],
+  declarations: [AppComponent, ODDComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

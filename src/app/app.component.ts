@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'atlas-root',
+  selector: 'odd-root',
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'phoenix-atlas';
+  title = 'phoenix-odd';
 }
